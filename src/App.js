@@ -1,9 +1,15 @@
 import React from 'react';
+import Home from './Components/Home/index';
+
+import SocialIcon from "./Components/SocialIcons"
 
 function App() {
   return (
     <div className="App">
-      Hello World
+ <SocialIcon />
+
+    <Home />
+    
     </div>
   );
 }

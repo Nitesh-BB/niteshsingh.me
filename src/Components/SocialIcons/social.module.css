@@ -1,0 +1,52 @@
+.iconMainContainer{
+    
+    position:fixed;
+    top:50%;
+    transform: translate(0, -50%);
+    left:20px;
+
+  
+}
+
+
+.iconButton {color:#00C6CF !important}
+
+.iconButton:hover{
+    transform: scale(1.3);
+}
+.verticalLine{
+    border-left:6px solid #00C6CF;
+    
+    margin-top:10px;
+    height: 200px;
+  
+}
+.iconContainer {display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+
+
+/* @media only screen and (max-width: 768px) {
+    .iconMainContainer{
+        top:10px;
+        transform: translate(-50%, 0);
+         left:50%
+         
+    }
+    .iconContainer{
+        justify-content:center;
+        flex-direction:row;
+    
+    }
+    .verticalLine{
+        border-top:6px solid #00C6CF;
+    min-width: 50px;
+    width: 40vw;
+        margin-left:10px;
+        height: 0px;
+        margin-top: 0px;
+    }
+} */
